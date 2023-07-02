@@ -1,6 +1,5 @@
 from pymongo import MongoClient
 
-
 def create_app(nome_aplicativo, senha):
     client = MongoClient('localhost', 27017)
     db = client['gerenciador_de_senhas']

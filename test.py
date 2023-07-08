@@ -9,19 +9,19 @@ class TestCRUDFunctions(unittest.TestCase):
         pass
 
     def test_create_app(self):
-        create_app('AppTest', '12345')
+        create_app('Aplicativo_Teste', '12345')
 
     def test_list_apps(self):
         apps = list_apps()
 
     def test_update_app(self):
-        update_app('AppTest', '54321')
+        update_app('Aplicativo_Teste', '54321')
 
     def test_search_app(self):
-        app = search_app('AppTest')
+        app = search_app('Aplicativo_Teste')
 
     def test_delete_app(self):
-        delete_app('AppTest')
+        delete_app('Aplicativo_Teste')
 
 if __name__ == '__main__':
     num_execucoes = 15
